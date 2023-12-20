@@ -1,5 +1,5 @@
 # myapp/php-fpm/Dockerfile
-FROM php:8.1-fpm-alpine
+FROM php:8.3-fpm-alpine
 
 RUN apk --update \
         --no-cache \
@@ -18,4 +18,4 @@ WORKDIR /var/www
 
 EXPOSE 9000
 
-CMD php-fpm
+CMD composer install; php-fpm
