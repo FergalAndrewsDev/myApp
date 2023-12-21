@@ -7,6 +7,8 @@ services:
       context: ./php-fpm
     restart: unless-stopped
     environment:
+      - MONGODB_URL=${MONGODB_URL}
+      - MONGODB_DB=${MONGODB_DB}
       - COMPOSER_MEMORY_LIMIT=-1
     volumes:
       - ./src:/var/www

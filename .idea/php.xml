@@ -44,11 +44,32 @@
       <path value="$PROJECT_DIR$/src/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/src/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/mongodb-odm-bundle" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/mongodb-odm" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/src/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/src/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/src/vendor/laminas/laminas-code" />
+      <path value="$PROJECT_DIR$/src/vendor/mongodb/mongodb" />
+      <path value="$PROJECT_DIR$/src/vendor/friendsofphp/proxy-manager-lts" />
+      <path value="$PROJECT_DIR$/src/vendor/jean85/pretty-package-versions" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="8.1" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.0" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/src/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
