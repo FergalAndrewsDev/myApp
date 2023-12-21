@@ -1,4 +1,4 @@
-# myapp/docker-compose.yml
+# myapp/docker-compose.yaml
 version: '3.7'
 
 services:
